@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/doar-faz-bem/precache-manifest.a0096ff3c0b9fdb3e1dcb327cd97ef8d.js"
+  "/doar-faz-bem/precache-manifest.15c4234dd19754ecb5ffc69a8aff7e8e.js"
 );
 
 self.addEventListener('message', (event) => {
