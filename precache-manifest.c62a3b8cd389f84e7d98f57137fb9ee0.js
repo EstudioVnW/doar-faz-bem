@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fd3e53fc7978cdf11a8d3d4c6412d0f",
+    "revision": "4840235f13c03dbeadd6592ca2530f14",
     "url": "/doar-faz-bem/index.html"
   },
   {
