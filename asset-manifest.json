@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css",
-    "main.js": "/doar-faz-bem/static/js/main.a840f23f.chunk.js",
-    "main.js.map": "/doar-faz-bem/static/js/main.a840f23f.chunk.js.map",
+    "main.js": "/doar-faz-bem/static/js/main.fb24218c.chunk.js",
+    "main.js.map": "/doar-faz-bem/static/js/main.fb24218c.chunk.js.map",
     "runtime-main.js": "/doar-faz-bem/static/js/runtime-main.9080439c.js",
     "runtime-main.js.map": "/doar-faz-bem/static/js/runtime-main.9080439c.js.map",
-    "static/js/2.be21203f.chunk.js": "/doar-faz-bem/static/js/2.be21203f.chunk.js",
-    "static/js/2.be21203f.chunk.js.map": "/doar-faz-bem/static/js/2.be21203f.chunk.js.map",
+    "static/js/2.e7487a79.chunk.js": "/doar-faz-bem/static/js/2.e7487a79.chunk.js",
+    "static/js/2.e7487a79.chunk.js.map": "/doar-faz-bem/static/js/2.e7487a79.chunk.js.map",
     "index.html": "/doar-faz-bem/index.html",
-    "precache-manifest.88570c69f7a6e4b51aa02c16bf9d047d.js": "/doar-faz-bem/precache-manifest.88570c69f7a6e4b51aa02c16bf9d047d.js",
+    "precache-manifest.feeba3e148c3bf67cecf285264d805c6.js": "/doar-faz-bem/precache-manifest.feeba3e148c3bf67cecf285264d805c6.js",
     "service-worker.js": "/doar-faz-bem/service-worker.js",
     "static/css/main.7a9ba1ba.chunk.css.map": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css.map",
-    "static/js/2.be21203f.chunk.js.LICENSE.txt": "/doar-faz-bem/static/js/2.be21203f.chunk.js.LICENSE.txt",
+    "static/js/2.e7487a79.chunk.js.LICENSE.txt": "/doar-faz-bem/static/js/2.e7487a79.chunk.js.LICENSE.txt",
     "static/media/backWhite.svg": "/doar-faz-bem/static/media/backWhite.56edde55.svg",
     "static/media/chevron-down.svg": "/doar-faz-bem/static/media/chevron-down.324dbb12.svg",
     "static/media/edit.svg": "/doar-faz-bem/static/media/edit.f0d64dc8.svg",
+    "static/media/eye.svg": "/doar-faz-bem/static/media/eye.bbfd0e90.svg",
+    "static/media/eyeOff.svg": "/doar-faz-bem/static/media/eyeOff.e6910aed.svg",
     "static/media/fechar.44c2a8b3.svg": "/doar-faz-bem/static/media/fechar.44c2a8b3.svg",
     "static/media/headerbg.jpeg": "/doar-faz-bem/static/media/headerbg.5c0e8879.jpeg",
     "static/media/logo.jpg": "/doar-faz-bem/static/media/logo.e399b404.jpg",
@@ -26,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9080439c.js",
-    "static/js/2.be21203f.chunk.js",
+    "static/js/2.e7487a79.chunk.js",
     "static/css/main.7a9ba1ba.chunk.css",
-    "static/js/main.a840f23f.chunk.js"
+    "static/js/main.fb24218c.chunk.js"
   ]
 }
