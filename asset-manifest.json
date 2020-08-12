@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css",
-    "main.js": "/doar-faz-bem/static/js/main.c918dfe8.chunk.js",
-    "main.js.map": "/doar-faz-bem/static/js/main.c918dfe8.chunk.js.map",
+    "main.js": "/doar-faz-bem/static/js/main.7faa05dd.chunk.js",
+    "main.js.map": "/doar-faz-bem/static/js/main.7faa05dd.chunk.js.map",
     "runtime-main.js": "/doar-faz-bem/static/js/runtime-main.9080439c.js",
     "runtime-main.js.map": "/doar-faz-bem/static/js/runtime-main.9080439c.js.map",
     "static/js/2.e7487a79.chunk.js": "/doar-faz-bem/static/js/2.e7487a79.chunk.js",
     "static/js/2.e7487a79.chunk.js.map": "/doar-faz-bem/static/js/2.e7487a79.chunk.js.map",
     "index.html": "/doar-faz-bem/index.html",
-    "precache-manifest.085bd362edf31e8a0ff4d8ff34b6610a.js": "/doar-faz-bem/precache-manifest.085bd362edf31e8a0ff4d8ff34b6610a.js",
+    "precache-manifest.fad0323ba35fba8e0d1dc64c48e04730.js": "/doar-faz-bem/precache-manifest.fad0323ba35fba8e0d1dc64c48e04730.js",
     "service-worker.js": "/doar-faz-bem/service-worker.js",
     "static/css/main.7a9ba1ba.chunk.css.map": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css.map",
     "static/js/2.e7487a79.chunk.js.LICENSE.txt": "/doar-faz-bem/static/js/2.e7487a79.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.9080439c.js",
     "static/js/2.e7487a79.chunk.js",
     "static/css/main.7a9ba1ba.chunk.css",
-    "static/js/main.c918dfe8.chunk.js"
+    "static/js/main.7faa05dd.chunk.js"
   ]
 }
