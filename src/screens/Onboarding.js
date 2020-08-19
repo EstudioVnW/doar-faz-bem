@@ -16,7 +16,6 @@ import EyeOffIcon from '../assets/eyeOff.svg';
 // Services
 import { createUser, login } from '../services/api';
 import { isAuthenticated } from '../auth';
-import firebase from '../firebase';
 
 // Styles
 const Form = styled.form`
@@ -113,15 +112,6 @@ class Onboarding extends Component {
 				redirect: true,
 			});
 		}
-
-		const messaging = firebase.messaging();
-		messaging.requestPermission().then(() => {
-			return messaging.getToken();
-		}).then((token) => {
-			console.log('Token: ', token);
-		}).catch((error) => {
-			console.log('error', error);
-		});
 	}
 
 	createAccount = async (user) => {
