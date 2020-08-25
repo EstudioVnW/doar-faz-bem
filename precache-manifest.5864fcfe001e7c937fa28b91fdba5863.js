@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6290cb9371f1a01a18d655e7fd7b3319",
+    "revision": "3870e351e43273a574ac2fcba453ed05",
     "url": "/doar-faz-bem/index.html"
   },
   {
-    "revision": "4b49569f516d06a1f435",
+    "revision": "c2f15cdb4161e27b7fed",
     "url": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css"
   },
   {
-    "revision": "6fe494b15806cf7ca458",
-    "url": "/doar-faz-bem/static/js/2.8f488d9a.chunk.js"
+    "revision": "6de445c99289503f1db4",
+    "url": "/doar-faz-bem/static/js/2.7a0f3bff.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/doar-faz-bem/static/js/2.8f488d9a.chunk.js.LICENSE.txt"
+    "url": "/doar-faz-bem/static/js/2.7a0f3bff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b49569f516d06a1f435",
-    "url": "/doar-faz-bem/static/js/main.3e92bc91.chunk.js"
+    "revision": "c2f15cdb4161e27b7fed",
+    "url": "/doar-faz-bem/static/js/main.caf49df4.chunk.js"
   },
   {
     "revision": "13a75551b523f6a0d012",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/doar-faz-bem/static/media/headerbg.5c0e8879.jpeg"
   },
   {
+    "revision": "72880ca152c218e81584df272849a2a3",
+    "url": "/doar-faz-bem/static/media/home.72880ca1.svg"
+  },
+  {
     "revision": "46631afd0b3a6f22eb72bedcb7cbd01c",
     "url": "/doar-faz-bem/static/media/info.46631afd.svg"
   },
@@ -80,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/doar-faz-bem/static/media/markerIcon.2f17b18c.svg"
   },
   {
+    "revision": "3e514d090e617d6cd1ddfc229a69099c",
+    "url": "/doar-faz-bem/static/media/med-colors.3e514d09.svg"
+  },
+  {
     "revision": "cf78e4f58bf95c1ea951a4ddaa75025a",
     "url": "/doar-faz-bem/static/media/minus.cf78e4f5.svg"
   },
@@ -88,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/doar-faz-bem/static/media/plus.5c1eff19.svg"
   },
   {
+    "revision": "935557ec5edeba429f299228ee4583f9",
+    "url": "/doar-faz-bem/static/media/search-colors.935557ec.svg"
+  },
+  {
     "revision": "67326646277ee3d59083213b084a8889",
     "url": "/doar-faz-bem/static/media/search.67326646.svg"
+  },
+  {
+    "revision": "17bbb7cf914de4484e61672a02d01d0f",
+    "url": "/doar-faz-bem/static/media/toolbox-colors.17bbb7cf.svg"
   },
   {
     "revision": "777f1f6ba0870038ee8a2759e4792312",
