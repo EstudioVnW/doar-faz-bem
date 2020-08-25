@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css",
-    "main.js": "/doar-faz-bem/static/js/main.270bc2cb.chunk.js",
-    "main.js.map": "/doar-faz-bem/static/js/main.270bc2cb.chunk.js.map",
+    "main.js": "/doar-faz-bem/static/js/main.38751178.chunk.js",
+    "main.js.map": "/doar-faz-bem/static/js/main.38751178.chunk.js.map",
     "runtime-main.js": "/doar-faz-bem/static/js/runtime-main.9080439c.js",
     "runtime-main.js.map": "/doar-faz-bem/static/js/runtime-main.9080439c.js.map",
-    "static/js/2.bd2824af.chunk.js": "/doar-faz-bem/static/js/2.bd2824af.chunk.js",
-    "static/js/2.bd2824af.chunk.js.map": "/doar-faz-bem/static/js/2.bd2824af.chunk.js.map",
+    "static/js/2.c6902221.chunk.js": "/doar-faz-bem/static/js/2.c6902221.chunk.js",
+    "static/js/2.c6902221.chunk.js.map": "/doar-faz-bem/static/js/2.c6902221.chunk.js.map",
     "index.html": "/doar-faz-bem/index.html",
-    "precache-manifest.3b0972d23dfa168a042b36a2c35d2cc1.js": "/doar-faz-bem/precache-manifest.3b0972d23dfa168a042b36a2c35d2cc1.js",
+    "precache-manifest.6db8690cf563bb4b06f1ce1f5d1471de.js": "/doar-faz-bem/precache-manifest.6db8690cf563bb4b06f1ce1f5d1471de.js",
     "service-worker.js": "/doar-faz-bem/service-worker.js",
     "static/css/main.7a9ba1ba.chunk.css.map": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css.map",
-    "static/js/2.bd2824af.chunk.js.LICENSE.txt": "/doar-faz-bem/static/js/2.bd2824af.chunk.js.LICENSE.txt",
-    "static/media/Group (1).svg": "/doar-faz-bem/static/media/Group (1).158b3b81.svg",
+    "static/js/2.c6902221.chunk.js.LICENSE.txt": "/doar-faz-bem/static/js/2.c6902221.chunk.js.LICENSE.txt",
     "static/media/backWhite.svg": "/doar-faz-bem/static/media/backWhite.56edde55.svg",
     "static/media/bell-2.svg": "/doar-faz-bem/static/media/bell-2.def45df9.svg",
     "static/media/bell.svg": "/doar-faz-bem/static/media/bell.f8b2265d.svg",
@@ -25,6 +24,7 @@
     "static/media/headerbg.jpeg": "/doar-faz-bem/static/media/headerbg.5c0e8879.jpeg",
     "static/media/home.svg": "/doar-faz-bem/static/media/home.72880ca1.svg",
     "static/media/info.svg": "/doar-faz-bem/static/media/info.46631afd.svg",
+    "static/media/install.svg": "/doar-faz-bem/static/media/install.158b3b81.svg",
     "static/media/logo-doar-faz-bem.svg": "/doar-faz-bem/static/media/logo-doar-faz-bem.de53993c.svg",
     "static/media/logo.jpg": "/doar-faz-bem/static/media/logo.e399b404.jpg",
     "static/media/markerIcon.svg": "/doar-faz-bem/static/media/markerIcon.2f17b18c.svg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9080439c.js",
-    "static/js/2.bd2824af.chunk.js",
+    "static/js/2.c6902221.chunk.js",
     "static/css/main.7a9ba1ba.chunk.css",
-    "static/js/main.270bc2cb.chunk.js"
+    "static/js/main.38751178.chunk.js"
   ]
 }
