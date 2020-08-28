@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Redirect } from 'react-router-dom';
 
 // Images
-import Logo from '../assets/logo-doar-faz-bem.svg';
+import Logo from '../assets/logo.svg';
 import NotificationIconOff from '../assets/bell.svg';
 import NotificationIconOn from '../assets/bell-2.svg';
 import { ReactComponent as CloseIcon } from '../assets/fechar.svg';

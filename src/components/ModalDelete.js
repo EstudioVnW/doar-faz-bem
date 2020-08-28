@@ -60,12 +60,16 @@ const DelModalHeader = styled.span`
 `;
 
 const DelModalText = styled.p`
-	padding: .8rem 0 .8rem 1rem;
+	padding: .8rem 0.3rem .8rem 1rem;
 	font-size: .9rem;
 	flex-wrap: wrap;
 
 	span {
 		font-weight: 600;
+	}
+
+	@media(min-width: 768px) {
+		padding: .8rem 0 .8rem 1rem;
 	}
 `;
 

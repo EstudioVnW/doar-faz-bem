@@ -39,6 +39,7 @@ const ContainerTable = styled.div`
 	}
 
 	@media(max-width: 648px) {
+		width: auto;
 		height: 80vh;
 
 		::-webkit-scrollbar {

@@ -135,8 +135,8 @@ const LogoIcon = styled.img`
 	}
 
 	@media(max-width: 360px) {
-		width: 6rem;
-    height: 6rem;
+		width: 7rem;
+    height: 7rem;
 	}
 `;
 
