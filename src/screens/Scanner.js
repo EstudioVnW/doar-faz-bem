@@ -146,6 +146,7 @@ const WrapperModalBarCode = styled.div`
 `;
 
 const InputBarCode = styled.input`
+	margin-bottom: 3rem;
 	width: 100%;
 	max-width: 20rem;
 	height: 3.5rem;
