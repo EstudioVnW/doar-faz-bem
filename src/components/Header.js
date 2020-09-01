@@ -105,7 +105,8 @@ const WrapperUser = styled.div`
 	}
 
 	@media(min-width: 768px) {
-		max-width: 27%;
+		${'' /* max-width: 27%; */}
+		max-width: 38%;
 	}
 
 	@media(min-width: 1440px) {
