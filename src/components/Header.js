@@ -62,6 +62,11 @@ const DashboardText = styled.p`
 	white-space: nowrap;
 	cursor: ${(props) => (!props.username && 'pointer')};
 
+	width: ${(props) => (props.username && '120px')};
+	display: ${(props) => (props.username && 'inline-block')};
+	overflow: ${(props) => (props.username && 'hidden')};
+	text-overflow: ${(props) => (props.username && 'ellipsis')};
+
 	@media(min-width: 768px) {
 		margin: ${(props) => props.username && '1rem'};
 		width: ${(props) => (!props.username && '4.5rem')};
@@ -108,8 +113,12 @@ const WrapperUser = styled.div`
 	}
 `;
 
+const Notifications = styled.div`
+	position: relative;
+`;
+
 const UserNotificationIcon = styled.img`
-	margin-left: 1rem;
+	margin-left: .5rem;
 	display: flex;
 	cursor: pointer;
 
@@ -121,7 +130,13 @@ const UserNotificationIcon = styled.img`
 
 const ContainerNotifications = styled.div`
 	position: absolute;
-	bottom: 1rem;
+	top: 2rem;
+	right: 7rem;
+
+	@media(min-width: 768px) {
+		top: 1.8rem;
+    right: 9rem;
+	}
 `;
 
 const WrapperNotifications = styled.div`
@@ -175,14 +190,14 @@ const TextNotification = styled.p`
 const ContainerNotificationsArrow = styled.div`
 	position: absolute;
 	left: 5.5rem;
-	${'' /* left: 6.9rem; */}
 	top: 0rem;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 13px solid #B4E4E6;
 
 	@media(min-width: 768px) {
-		left: 6.9rem;
+		${''}
+		left: 6.5rem;
 	}
 `;
 
@@ -322,19 +337,32 @@ class Header extends Component {
 										{this.state.user.charAt(0).toUpperCase() + this.state.user.slice(1).toLowerCase()}
 									</DashboardText>
 									{!hiddenHome && (
-										isNotification ? (
-											<UserNotificationIcon
-												src={NotificationIconOn}
-												alt="com notificação"
-												onClick={handleOpenNotifications}
-											/>
-										) : (
-											<UserNotificationIcon
-												src={NotificationIconOff}
-												alt="sem notificação"
-												onClick={handleOpenNotifications}
-											/>
-										)
+										<Notifications>
+											{isNotification ? (
+												<UserNotificationIcon
+													src={NotificationIconOn}
+													alt="com notificação"
+													onClick={handleOpenNotifications}
+												/>
+											) : (
+												<UserNotificationIcon
+													src={NotificationIconOff}
+													alt="sem notificação"
+													onClick={handleOpenNotifications}
+												/>
+											)}
+											{withoutClose && isOpenNotification && (
+												<ContainerNotifications>
+													<ContainerNotificationsArrow />
+													<WrapperNotifications>
+														{isNotification
+															? isExpiredMedicine && this.renderNotifications(isExpiredMedicine)
+															: <TextNotification>Você não possui medicamentos à vencer.</TextNotification>
+														}
+													</WrapperNotifications>
+												</ContainerNotifications>
+											)}
+										</Notifications>
 									)
 									}
 								</WrapperUser>
@@ -343,17 +371,6 @@ class Header extends Component {
 										<span>Voltar para o Início</span>
 										<img src={ToolBox} alt="ícone de ínicio" />
 									</Button>
-								)}
-								{withoutClose && isOpenNotification && (
-									<ContainerNotifications>
-										<ContainerNotificationsArrow />
-										<WrapperNotifications>
-											{isNotification
-												? isExpiredMedicine && this.renderNotifications(isExpiredMedicine)
-												: <TextNotification>Você não possui medicamentos à vencer.</TextNotification>
-											}
-										</WrapperNotifications>
-									</ContainerNotifications>
 								)}
 							</ContainerUser>
 							<DashboardText
