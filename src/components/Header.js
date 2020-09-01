@@ -174,7 +174,7 @@ const TextNotification = styled.p`
 
 const ContainerNotificationsArrow = styled.div`
 	position: absolute;
-	left: 6.9rem;
+	left: 5.5rem;
 	${'' /* left: 6.9rem; */}
 	top: 0rem;
 	border-left: 10px solid transparent;
