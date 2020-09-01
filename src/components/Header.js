@@ -175,10 +175,15 @@ const TextNotification = styled.p`
 const ContainerNotificationsArrow = styled.div`
 	position: absolute;
 	left: 6.9rem;
+	${'' /* left: 6.9rem; */}
 	top: 0rem;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 13px solid #B4E4E6;
+
+	@media(min-width: 768px) {
+		left: 6.9rem;
+	}
 `;
 
 const Button = styled.div`
