@@ -2,12 +2,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import DefaultButton from './DefaultButton';
-
-import { getById } from '../services/api';
-
 // Components
 import Header from './Header';
+import DefaultButton from './DefaultButton';
+
+// Services
+import { getById } from '../services/api';
 
 // Styles
 const ModalDetails = styled.div`

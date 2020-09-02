@@ -62,7 +62,7 @@ const DashboardText = styled.p`
 	white-space: nowrap;
 	cursor: ${(props) => (!props.username && 'pointer')};
 
-	width: ${(props) => (props.username && '120px')};
+	${'' /* width: ${(props) => (props.username && '120px')}; */}
 	display: ${(props) => (props.username && 'inline-block')};
 	overflow: ${(props) => (props.username && 'hidden')};
 	text-overflow: ${(props) => (props.username && 'ellipsis')};
@@ -197,7 +197,6 @@ const ContainerNotificationsArrow = styled.div`
 	border-bottom: 13px solid #B4E4E6;
 
 	@media(min-width: 768px) {
-		${''}
 		left: 6.5rem;
 	}
 `;

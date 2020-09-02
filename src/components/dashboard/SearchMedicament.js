@@ -3,12 +3,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import DefaultButton from '../DefaultButton';
-
-import { getByMedicament } from '../../services/api';
-
 // Components
 import Header from '../Header';
+import DefaultButton from '../DefaultButton';
+
+// Services
+import { getByMedicament } from '../../services/api';
 
 // Styles
 const Container = styled.div`

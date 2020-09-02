@@ -5,7 +5,7 @@ import styled from 'styled-components';
 // Components
 import DefaultButton from './DefaultButton';
 
-// Assets
+// Images
 import { ReactComponent as CloseIcon } from '../assets/fechar.svg';
 
 // Styles

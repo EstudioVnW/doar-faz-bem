@@ -4,12 +4,10 @@ import styled from 'styled-components';
 import moment from 'moment';
 import 'moment/locale/pt-br';
 
-// Components
-import { ReactComponent as CloseIcon } from '../assets/fechar.svg';
-
 // Images
 import EditIcon from '../assets/edit.svg';
 import TrashIcon from '../assets/trash.svg';
+import { ReactComponent as CloseIcon } from '../assets/fechar.svg';
 
 // Styles
 const Overlay = styled.div`
@@ -56,7 +54,6 @@ const ContainerDetails = styled.div`
 			background: #fff;
 		}
 	}
-
 
 	@media(min-width: 1024px) {
 		border-radius: 10px;

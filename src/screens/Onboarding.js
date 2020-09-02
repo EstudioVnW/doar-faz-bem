@@ -69,7 +69,7 @@ const ErrorMessage = styled.p`
 `;
 
 const ContainerButton = styled.div`
-	margin-top: 1rem;
+	margin-top: .5rem;
 	width: 18rem;
 
 	@media(max-width: 320px) {
@@ -77,6 +77,7 @@ const ContainerButton = styled.div`
 	}
 
 	@media(min-width: 768px) {
+		margin-top: 1rem;
 		width: 20rem;
 	}
 `;
@@ -360,6 +361,11 @@ class Onboarding extends Component {
 			emailError: false,
 			passwordError: false,
 			errorBack: '',
+			user: {
+				username: '',
+				email: '',
+				password: '',
+			},
 		});
 	}
 
@@ -385,7 +391,6 @@ class Onboarding extends Component {
 								containerWidth='18rem'
 								containerLittleWidth='17rem'
 								containerWidthDesk='20rem'
-								// onboardingMarginBottom
 								onboardingMarginBottomLittle
 								containerDisplay
 								containerAlignItems
@@ -404,7 +409,6 @@ class Onboarding extends Component {
 								createErrorText={nameError}
 								onChange={(ev) => this.handleChange('username', ev)}
 								disabled={false}
-							// isError={nameError}
 							/>
 						)}
 						<ErrorMessage>{nameError && errorsMessage[0]}</ErrorMessage>
