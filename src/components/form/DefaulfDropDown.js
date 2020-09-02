@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Assets
+// Images
 import ChevronDown from '../../assets/chevron-down.svg';
 
 // Styles

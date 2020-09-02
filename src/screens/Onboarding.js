@@ -10,8 +10,6 @@ import DefaultButton from '../components/DefaultButton';
 import Loading from '../components/Loading';
 
 // Images
-import EyeOnIcon from '../assets/eye.svg';
-import EyeOffIcon from '../assets/eyeOff.svg';
 import InstallIcon from '../assets/install.svg';
 import Close from '../assets/closeBrown.png';
 
