@@ -176,6 +176,20 @@ class Onboarding extends Component {
 		if (isIos() && !isInStandaloneMode()) {
 			this.setState({ showInstallMessage: true, isInstallModalOpen: true });
 		}
+
+		if (isInStandaloneMode()) {
+			this.Teste();
+		}
+	}
+
+	Teste = async () => {
+		// if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
+		// 	const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+		// }
+		// const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+		const stream = await navigator.mediaDevices.getUserMedia({
+			video: true,
+		});
 	}
 
 	renderModalInstallIphone = () => (

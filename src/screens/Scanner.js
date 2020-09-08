@@ -279,7 +279,7 @@ class Scanner extends Component {
 				}, (error) => {
 					if (error) {
 						console.log(error);
-						alert('Erro ao tentar abrir a câmera do dispositivo.');
+						alert('Erro ao tentar abrir a câmera do dispositivo. Permita o acesso nas configurações do seu navegador.');
 						return;
 					}
 					Quagga.start();
