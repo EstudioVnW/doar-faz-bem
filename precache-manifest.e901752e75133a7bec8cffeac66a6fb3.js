@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89b03c0cd191ffb45edd02c040ac6aa9",
+    "revision": "1cf62f3e2641e1c117763e90ce1650d2",
     "url": "/doar-faz-bem/index.html"
   },
   {
-    "revision": "9e6c64481eecf0977687",
+    "revision": "2710ac1b7e7ce1c493cb",
     "url": "/doar-faz-bem/static/css/main.7a9ba1ba.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/doar-faz-bem/static/js/2.4902990a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e6c64481eecf0977687",
-    "url": "/doar-faz-bem/static/js/main.4cd95833.chunk.js"
+    "revision": "2710ac1b7e7ce1c493cb",
+    "url": "/doar-faz-bem/static/js/main.463402c6.chunk.js"
   },
   {
     "revision": "13a75551b523f6a0d012",
