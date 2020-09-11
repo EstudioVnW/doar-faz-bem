@@ -12,8 +12,6 @@ import EyeOffIcon from '../../assets/eyeOff.svg';
 const Container = styled.div`
 	width: ${(props) => (props.containerWidth)};
   margin-bottom: ${(props) => (props.isError || props.createErrorText ? '.2rem' : '1.5rem')};
-  /* margin-bottom: ${(props) => (props.isError || props.createErrorText ? '0.5rem' : '1.5rem')}; */
-
 	margin-bottom: ${(props) => (props.onboardingMarginBottom && '1.25rem')};
 	display: ${(props) => (props.containerDisplay && 'flex')};
 	align-items: ${(props) => (props.containerAlignItems && 'center')};
@@ -123,14 +121,7 @@ const Input = styled.input`
 `;
 
 const EyeIcon = styled.img`
-	/* position: absolute;
-	right: 1rem;
-	bottom: 2rem;
 	cursor: pointer;
-
-	@media(max-width: 320px) {
-		bottom: 1.5rem;
-	} */
 `;
 
 const ErrorMessage = styled.p`

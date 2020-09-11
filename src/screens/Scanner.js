@@ -463,7 +463,7 @@ class Scanner extends Component {
 							firsText='Não é possível efetuar a leitura do código de barras pelo desktop.'
 							modalCloseWarring={this.handleRedirectWarringModal}
 							desk='Digite o Código de Barras'
-							handleClick={this.handleGoBack}
+							// handleClick={this.handleGoBack}
 						/>
 						<ButtonHome onClick={() => this.setState({ isHomeRedirect: '/dashboard' })}>
 							<span>Voltar para o Início</span>

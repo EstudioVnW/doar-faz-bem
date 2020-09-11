@@ -61,8 +61,6 @@ const DashboardText = styled.p`
 	font-weight: 800;
 	white-space: nowrap;
 	cursor: ${(props) => (!props.username && 'pointer')};
-
-	${'' /* width: ${(props) => (props.username && '120px')}; */}
 	display: ${(props) => (props.username && 'inline-block')};
 	overflow: ${(props) => (props.username && 'hidden')};
 	text-overflow: ${(props) => (props.username && 'ellipsis')};
@@ -105,7 +103,6 @@ const WrapperUser = styled.div`
 	}
 
 	@media(min-width: 768px) {
-		${'' /* max-width: 27%; */}
 		max-width: 38%;
 	}
 
@@ -159,7 +156,7 @@ const WrapperNotifications = styled.div`
 		border-radius: 20px;
 	}
 	::-webkit-scrollbar-thumb {
-		background: #91bec0;
+		background: #85aaac;
 		border-radius: 13px;
 	}
 	::-webkit-scrollbar-thumb:hover {

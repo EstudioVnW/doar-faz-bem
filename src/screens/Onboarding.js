@@ -118,7 +118,6 @@ const LoginText = styled.p`
 
 const ModalInstall = styled.div`
 	margin: 0.55rem;
-	${''}
 	padding: 0.95rem;
 	position: absolute;
 	bottom: 0;
@@ -177,20 +176,16 @@ class Onboarding extends Component {
 			this.setState({ showInstallMessage: true, isInstallModalOpen: true });
 		}
 
-		if (isInStandaloneMode()) {
-			this.Teste();
-		}
+		// if (isInStandaloneMode()) {
+		// 	this.Teste();
+		// }
 	}
 
-	Teste = async () => {
-		// if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
-		// 	const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-		// }
-		// const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-		const stream = await navigator.mediaDevices.getUserMedia({
-			video: true,
-		});
-	}
+	// Teste = async () => {
+	// 	const stream = await navigator.mediaDevices.getUserMedia({
+	// 		video: true,
+	// 	});
+	// }
 
 	renderModalInstallIphone = () => (
 		<ModalInstall>

@@ -28,7 +28,6 @@ const Content = styled.div`
 
 const Form = styled.form`
 	margin: 0 auto;
-	/* padding-top: 2rem; */
 	width: 86%;
 	display: flex;
 	flex-direction: column;

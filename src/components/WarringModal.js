@@ -61,14 +61,14 @@ const ContainerButton = styled.div`
 `;
 
 const WarringModal = (props) => {
-	const handleClick = () => {
-		props.handleClick();
-	};
+	// const handleClick = () => {
+	// 	props.handleClick();
+	// };
 
 	return (
 		<Overlay>
 			<Container>
-				<Icon strokeWidth={'3'}
+				{/* <Icon strokeWidth={'3'}
 					style={{
 						stroke: '#d8998a',
 						cursor: 'pointer',
@@ -78,7 +78,7 @@ const WarringModal = (props) => {
 						width: '1rem',
 					}}
 					onClick={handleClick}
-				/>
+				/> */}
 				<Text title>Mensagem de Incompatibilidade</Text>
 				<Text>{props.firsText}</Text>
 				<Text>{props.secText}</Text>
