@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Redirect } from 'react-router-dom';
 
+import * as serviceWorker from '../serviceWorker';
+
 // Components
 import OnboardingHeader from '../components/OnboardingHeader';
 import DefaultInput from '../components/form/DefaultInput';
@@ -151,6 +153,10 @@ class Onboarding extends Component {
 		redirect: false,
 		showInstallMessage: undefined,
 		isInstallModalOpen: false,
+
+
+		waitingWorker: {},
+		newVersionAvailable: false,
 	}
 
 	componentDidMount() {
@@ -179,6 +185,8 @@ class Onboarding extends Component {
 		// if (isInStandaloneMode()) {
 		// 	this.Teste();
 		// }
+
+		serviceWorker.register({ onUpdate: this.onServiceWorkerUpdate });
 	}
 
 	// Teste = async () => {
@@ -186,6 +194,20 @@ class Onboarding extends Component {
 	// 		video: true,
 	// 	});
 	// }
+
+	onServiceWorkerUpdate = (registration) => {
+		this.setState({
+			waitingWorker: registration && registration.waiting,
+			newVersionAvailable: true,
+		});
+	}
+
+	updateServiceWorker = () => {
+		const { waitingWorker } = this.state;
+		waitingWorker && waitingWorker.postMessage({ type: 'SKIP_WAITING' })
+		this.setState({ newVersionAvailable: false });
+		window.location.reload();
+	}
 
 	renderModalInstallIphone = () => (
 		<ModalInstall>
